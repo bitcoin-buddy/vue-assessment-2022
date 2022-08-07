@@ -11,6 +11,18 @@
   </div>
 </template>
 
+<script>
+    import Home from './views/Home.vue'
+    import Challenge1 from './views/Challenge1.vue'
+
+    export default {
+        name: 'app',
+        components: {
+            Home
+        }
+    }
+</script>
+
 <style>
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;

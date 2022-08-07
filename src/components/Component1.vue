@@ -10,8 +10,9 @@
         name: 'Component1',
         data() {
             return {
-                string: null
+                string: "sd"
             }
         }
     }
 </script>
+<style scoped ></style>
