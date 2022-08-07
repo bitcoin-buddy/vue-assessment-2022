@@ -2,8 +2,6 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 
-Vue.use(VueRouter)
-
 const routes = [
   {
     path: '/',
@@ -17,7 +15,7 @@ const routes = [
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
     component: function () {
-      return import(/* webpackChunkName: "Challenge1" */ '../views/Challenge1.vue')
+      return import(/*webpackChunkName: "Challenge1" */ '../views/Challenge1.vue')
     }
   },
   {
@@ -53,9 +51,10 @@ const routes = [
 ]
 
 const router = new VueRouter({
-  mode: 'history',
-  base: process.env.BASE_URL,
-  routes
+    mode: 'history',
+    base: process.env.BASE_URL,
+    routes
 })
+Vue.use(VueRouter)
 
 export default router

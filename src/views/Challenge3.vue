@@ -1,5 +1,5 @@
 <template>
-  <div class="challenge">
+  <div class="challenge3">
     <h1>Bug Challenge 3</h1>
     <component-2 :Msg='msg' />
   </div>

@@ -1,5 +1,5 @@
 <template>
-  <div class="challenge">
+  <div class="challenge2">
     <h1>Bug Challenge 2</h1>
     <component-1 />
   </div>
@@ -15,7 +15,8 @@
     },
     data() {
       return {
-        msg: 'Congrats you have discovered the issue',
+          msg: 'Congrats you have discovered the issue',
+          
       }
     }
   }

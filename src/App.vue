@@ -13,7 +13,11 @@
 
 <script>
     import Home from './views/Home.vue'
-    import Challenge1 from './views/Challenge1.vue'
+    //import Challenge1 from './views/Challenge1.vue'
+    //import Challenge2 from './views/Challenge2.vue'
+    //import Challenge3 from './views/Challenge3.vue'
+    //import Component1 from './components/Component1.vue'
+    //import Component2 from './components/Component2.vue'
 
     export default {
         name: 'app',
