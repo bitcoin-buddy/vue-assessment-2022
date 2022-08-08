@@ -1,8 +1,9 @@
 <template>
-  <div class="challenge1">
-    <h1>Bug Challenge 1</h1>
-    <p>{{ msg }}</p>
-  </div>
+    <div class="challenge">
+        <h1>Bug Challenge 1</h1>
+        <p>{{ msg }}</p>
+        <p>{{ msg2 }}</p>
+    </div>
 </template>
 
 <script>
@@ -12,7 +13,7 @@
     data() {
         return {
             msg: 'Congrats you have discovered the issue',
-            msg2: 'Don\t forget to commit this solution'
+            msg2: 'Don\'t forget to commit this solution'
         }
 
     }

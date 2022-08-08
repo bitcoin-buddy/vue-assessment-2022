@@ -10,7 +10,7 @@
         name: 'Component1',
         data() {
             return {
-                string: "sd"
+                string: "a"
             }
         }
     }

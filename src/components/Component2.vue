@@ -10,9 +10,10 @@ export default {
     name: 'Component2',
     props: {
         msg: {
-            require: true,
-            type: Array
+            type: String,
+            require: true
         }
     }
+
 }
 </script>

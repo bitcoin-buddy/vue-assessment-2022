@@ -1,5 +1,5 @@
 <template>
-  <div class="challenge2">
+  <div class="challenge">
     <h1>Bug Challenge 2</h1>
     <component-1 />
   </div>

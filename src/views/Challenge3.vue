@@ -1,5 +1,5 @@
 <template>
-  <div class="challenge3">
+  <div class="challenge">
     <h1>Bug Challenge 3</h1>
     <component-2 :Msg='msg' />
   </div>
@@ -9,7 +9,7 @@
   import Component2 from '@/components/Component2'
 
   export default {
-    name: 'Challenge2',
+    name: 'Challenge3',
     components: {
       Component2
     },
