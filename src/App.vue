@@ -8,6 +8,9 @@
       <router-link to="/final">Final</router-link>
     </div>
     <router-view/>
+    <div style="position:relative;">
+    <img alt="bug" class="bug" src="./assets/bug.png" >
+    </div>
   </div>
 </template>
 
@@ -42,5 +45,13 @@
 
 #nav a.router-link-exact-active {
   color: #42b983;
+}
+
+.bug {
+  height:100px;
+  position:absolute;
+  right:0px; 
+  top:bottom; 
+  z-index:2;
 }
 </style>
